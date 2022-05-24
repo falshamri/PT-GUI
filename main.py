@@ -5,6 +5,7 @@ from ATTACKVECTOR.attackvector4 import AttackVectorFour
 from ATTACKVECTOR.attackvector7 import AttackVectorSeven
 from ATTACKVECTOR.attackvector8 import AttackVectorEight
 from ATTACKVECTOR.attackvector9 import AttackVectorNine
+from ATTACKVECTOR.attackvector12 import AttackVectorTwelve
 from EnumerationTools.HTTPheaders import HTTPheaders
 from EnumerationTools.ImageMetaDataExtractor import IMDExtractor
 from EnumerationTools.MacChanger import MacChange

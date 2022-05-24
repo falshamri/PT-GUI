@@ -124,6 +124,8 @@ class VectorsPage(tk.Frame):
         create_attack_vector("Authentication Bypass Attack", "Thanh Bao Chau Le",
                              "AttackVectorNine",
                              AUTH_BYPASS_DESC)
+        create_attack_vector("Solar, exploiting log4j Apache server", "Fahad Alshamri", "AttackVectorTwelve",
+                             Solar_exploiting_log4j)
 
     def show_hint(self, desc):
         """

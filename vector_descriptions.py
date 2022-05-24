@@ -42,6 +42,7 @@ WEB_APP_XSS_SQLI_DESC = "The kali machine (attacker) uses the pfsense to reach t
                         "browser and session tokens. This attack may also damage the webpage by altering the " \
                         "content of the HTML page.  "
 NFS_PRIV_ESC_DESC = ""
+Solar_exploiting_log4j = "The Log4j flaw allows attackers to execute code remotely on a target computer, which could let them steal data, install malware or take control."
 APACHE_DESC = "Making use of CVE-2021-41773/42013, this attack vector demonstrates the use of Path Traversal and Remote Code Execution" \
               " on a vulnerable configuration of Apache Webserver 2.4.49 or 2.4.50."
 AUTH_BYPASS_DESC = "Privilege escalation attack will be applied to demonstrate Authentication Bypass attack. Before " \
