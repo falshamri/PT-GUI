@@ -66,10 +66,15 @@ class GUIApp(tk.Tk):
                   AttackVectorTwo, PortScan, TestSniff, MacChange,
                   BannerGrab, MsfPayloadGen, MsfListener, MimtDnsSpoof,
                   DTFuzz, FTPBruteForce, IMDExtractor, AttackVectorSeven,
-                  AttackVectorEight, AttackVectorNine, AttackVectorFour,
+<<<<<<< HEAD
+                  AttackVectorEight, AttackVectorNine, AttackVectorFour, AttackVectorTwelve
                   SshBrute, HashAn, PHCracker, ExampleNewPage,
                   ZipBF, ICMP, HTTPheaders, WalkthroughClass,
                   API_Keys, ShodanScript, SNMPCheck):
+=======
+                  AttackVectorEight, AttackVectorNine, AttackVectorTwelve, AttackVectorFour,
+                  SshBrute, HashAn, PHCracker, ZipBF, ICMP, HTTPheaders, WalkthroughClass):
+>>>>>>> 42cf21ec87238f007b0101f7022e3e74d71604c3
             # sets page_name variable equal to current object's name
             page_name = F.__name__
             # creates new frame

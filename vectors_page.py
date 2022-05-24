@@ -119,6 +119,8 @@ class VectorsPage(tk.Frame):
                              "Nancy Patel", "AttackVectorFour", WEB_APP_XSS_SQLI_DESC)
         create_attack_vector("NFS Privilege Escalation", "Mohammed Alassiri", "AttackVectorSeven",
                              NFS_PRIV_ESC_DESC)
+        create_attack_vector("Solar, exploiting log4j Apache server", "Fahad Alshamri", "AttackVectorTwelve",
+                             Solar_exploiting_log4j)
         create_attack_vector("apache Webserver Exploit", "Taylor Smith", "AttackVectorEight",
                              APACHE_DESC)
         create_attack_vector("Authentication Bypass Attack", "Thanh Bao Chau Le",
