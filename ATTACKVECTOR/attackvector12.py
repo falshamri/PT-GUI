@@ -173,7 +173,7 @@ class AttackVectorTwelve(tk.Frame):
 <<<<<<< HEAD
         title_canvas = tk.Canvas(self, bg='#64C1DA', highlightthickness=0)
         title_canvas.place(rely=0.08, relheight=0.12, relwidth=1)
-        title_label = tk.Label(self, text="NFS Privilege Escalation", bg='#4D6C84', fg='white', anchor="c",
+        title_label = tk.Label(self, text="LOG4J", bg='#4D6C84', fg='white', anchor="c",
                                font=framefont)
         title_label.place(rely=0.08, relheight=0.12, relwidth=1)
 
