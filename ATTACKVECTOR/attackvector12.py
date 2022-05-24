@@ -32,7 +32,7 @@ class AttackVectorTwelve(tk.Frame):
 
         def change_to_Step1():
             text = (
-                "\nStep 1: NFS enumeration\n\n"
+                "\nStep 1: Reconnaissance\n\n"
                 "o   Find what port is running on (usually looking for Apache service on port 80 but for Solar Apache service it is going to be on port 8983 as it is the default port) by using 'nmap target IP'.\n\n"
                 "o   After using Nmap on target IP, we will Discover the target IP and the port we found, for example (http://Target.IP:Port).\n\n"
                 "o   Once we are on the Target IP web service, we will be looking for /var/solr/logs..\n\n"
